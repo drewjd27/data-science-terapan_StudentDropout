@@ -46,7 +46,16 @@ pip install -r requirements.txt
 
 ## Business Dashboard
 
-Dashboard telah dikembangkan menggunakan Looker Studio untuk memberikan insight visual yang komprehensif tentang pola dropout mahasiswa. 
+Dashboard telah dikembangkan menggunakan Looker Studio untuk memberikan insight visual yang komprehensif tentang pola dropout mahasiswa. Pada looker studio, ditambahkan field baru bernama `Dropout Count` agar dapat melihat jumlah mahasiswa dropout dengan formula berikut ini.
+
+
+```
+CASE
+  WHEN Target = "Dropout" THEN 1
+  ELSE 0
+END
+```
+
 
 | ![drewjd27-dashboard](https://github.com/user-attachments/assets/68e74422-f5f0-4c6f-8db8-a8ac0b798689) |
 |:--:| 
