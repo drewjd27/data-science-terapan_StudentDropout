@@ -69,6 +69,44 @@ Dashboard menampilkan:
 - **Faktor Akademis**: Pola dropout berdasarkan program studi dan jadwal kuliah (siang/malam)
 - **Status Displacement**: Analisis mahasiswa yang pindah vs dropout
 
+### Temuan Utama dari Dashboard:
+
+1. **Distribusi Target**: 
+   - 49.9% siswa berhasil Graduate
+   - 32.1% siswa Dropout
+   - 17.9% siswa masih Enrolled
+
+2. **Faktor Beasiswa**: 
+   - 90.6% siswa dropout tidak memiliki beasiswa
+   - Hanya 9.4% siswa dropout yang memiliki beasiswa
+   - Menunjukkan korelasi kuat antara dukungan finansial dan tingkat dropout
+
+3. **Status Displacement**:
+   - 52.9% siswa dropout tidak mengalami displacement
+   - 47.1% mengalami displacement
+   - Faktor geografis dan mobilitas berpengaruh terhadap dropout
+
+4. **Distribusi Gender**:
+   - Relatif seimbang antara male (50.7%) dan female (49.3%) dalam kasus dropout
+
+5. **Status Debitur**:
+   - 78% siswa dropout tidak memiliki status sebagai debitur
+   - 22% adalah debitur, menunjukkan masalah finansial
+
+6. **Pola Kehadiran**:
+   - 85.4% siswa dropout mengikuti program daytime
+   - 14.6% mengikuti program evening
+
+7. **Status Pernikahan**:
+   - Mayoritas siswa dropout berstatus single (sekitar 1,100+ siswa)
+   - Diikuti oleh married, divorced, dan status lainnya dengan jumlah jauh lebih sedikit
+
+8. **Program Studi dengan Dropout Tertinggi**:
+   - Management (evening attendance): ~130 siswa
+   - Management: ~125 siswa
+   - Nursing: ~115 siswa
+   - Journalism and Communication: ~105 siswa
+
 **Link Dashboard**: https://lookerstudio.google.com/u/0/reporting/e331a1ea-fceb-404c-a4dc-ebf0aded3458/page/cUaOF
 
 ## Menjalankan Sistem Machine Learning
