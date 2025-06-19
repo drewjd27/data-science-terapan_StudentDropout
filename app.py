@@ -5,7 +5,7 @@ import joblib
 # Load model
 model = joblib.load("rf_best_model.pkl")
 
-st.title("Prediksi Status Mahasiswa (Dropout, Enrolled, Graduate)")
+st.title("Student's Status Prediction (Dropout, atau Graduate)")
 
 # Mapping
 marital_status_map = {"Single": 1, "Married": 2, "Widower": 3, "Divorced": 4, "Facto Union": 5, "Legally Separated": 6}
@@ -127,17 +127,17 @@ if submitted:
     prediction = model.predict(input_data)[0]
 
     proba = model.predict_proba(input_data)[0]
-    label_map = {0: "Dropout", 1: "Enrolled", 2: "Graduate"}
+    label_map = {0: "Non Dropout", 1: "Dropout"}
 
-    st.success(f"Prediksi Status Mahasiswa: **{label_map[prediction]}**")
+    st.success(f"Predicted Student's Status: **{label_map[prediction]}**")
 
-    st.markdown("### Probabilitas Prediksi")
+    st.markdown("### Prediction Probability")
     prob_df = pd.DataFrame({
         "Status": [label_map[i] for i in range(len(proba))],
-        "Probabilitas": proba
+        "Probability": proba
     })
 
     st.bar_chart(prob_df.set_index("Status"))
 
-    label_map = {0: "Dropout", 1: "Enrolled", 2: "Graduate"}
-    st.success(f"Prediksi Status Mahasiswa: **{label_map[prediction]}**")
+    label_map = {0: "Non Dropout", 1: "Dropout"}
+    st.success(f"Predicted Student's Status: **{label_map[prediction]}**")
