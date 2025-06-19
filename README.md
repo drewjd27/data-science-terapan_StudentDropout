@@ -73,7 +73,7 @@ Dashboard menampilkan:
 
 ## Menjalankan Sistem Machine Learning
 
-Prototype sistem machine learning telah dikembangkan menggunakan Streamlit dengan model XGBoost yang telah dioptimasi. Sistem ini memungkinkan prediksi dropout secara real-time berdasarkan input karakteristik mahasiswa.
+Prototype sistem machine learning telah dikembangkan menggunakan Streamlit dengan model XGBoost yang telah dioptimasi. Sistem ini memungkinkan prediksi dropout berdasarkan input karakteristik mahasiswa.
 
 **Cara menjalankan locally**:
 ```bash
