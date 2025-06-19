@@ -137,7 +137,9 @@ if submitted:
         "Probability": proba
     })
 
-    st.bar_chart(prob_df.set_index("Status"))
+    # Create pie chart using plotly
+    import plotly.express as px
+    fig = px.pie(prob_df, values='Probability', names='Status')
+    st.plotly_chart(fig)
 
     label_map = {0: "Non Dropout", 1: "Dropout"}
-    st.success(f"Predicted Student's Status: **{label_map[prediction]}**")
