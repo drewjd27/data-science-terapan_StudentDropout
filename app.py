@@ -5,7 +5,7 @@ import joblib
 # Load model
 model = joblib.load("xgb_best_model.pkl")
 
-st.title("Student's Status Prediction (Dropout, or Graduate)")
+st.title("Student's Dropout Prediction")
 
 # Mapping
 marital_status_map = {"Single": 1, "Married": 2, "Widower": 3, "Divorced": 4, "Facto Union": 5, "Legally Separated": 6}
