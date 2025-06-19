@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("rf_best_model.pkl")
+model = joblib.load("xgb_best_model.pkl")
 
 st.title("Student's Status Prediction (Dropout, or Graduate)")
 
