@@ -128,7 +128,7 @@ streamlit run app.py
 
 Proyek ini berhasil mengidentifikasi faktor-faktor kunci yang mempengaruhi dropout mahasiswa dan mengembangkan sistem prediksi dengan akurasi tinggi menggunakan model XGBoost. Analisis menunjukkan bahwa:
 
-1. **Model XGBoost** memberikan performa terbaik dibandingkan Random Forest untuk kasus prediksi dropout
+1. **Model XGBoost** memberikan performa terbaik dibandingkan Random Forest untuk kasus prediksi dropout. Akurasi XGBoost 88.47%, akurasi Random Forest 88.36%.
 2. **Faktor demografis** seperti status pernikahan (mayoritas dropout adalah mahasiswa single) dan gender memiliki pengaruh signifikan
 3. **Status beasiswa** menunjukkan bahwa 90.6% mahasiswa dropout tidak memiliki beasiswa
 4. **Jadwal kuliah** mempengaruhi dropout dengan 85.4% mahasiswa dropout mengikuti kelas siang hari
