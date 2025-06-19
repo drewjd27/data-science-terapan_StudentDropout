@@ -46,7 +46,13 @@ pip install -r requirements.txt
 
 ## Business Dashboard
 
-Dashboard telah dikembangkan menggunakan Looker Studio untuk memberikan insight visual yang komprehensif tentang pola dropout mahasiswa. Dashboard menampilkan:
+Dashboard telah dikembangkan menggunakan Looker Studio untuk memberikan insight visual yang komprehensif tentang pola dropout mahasiswa. 
+
+| ![drewjd27-dashboard](https://github.com/user-attachments/assets/68e74422-f5f0-4c6f-8db8-a8ac0b798689) |
+|:--:| 
+| *Dashboard yang Dibangun di Looker Studio* |
+
+Dashboard menampilkan:
 
 - **Overview Dropout**: Total mahasiswa, target berdasarkan status, dan jumlah dropout
 - **Analisis Demografis**: Distribusi dropout berdasarkan gender, status pernikahan
